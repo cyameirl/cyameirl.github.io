@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #0b3c3d;
+    color: #ffffff;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #1abc9c;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: #ffffff;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.hero {
+    background-color: #e8f6f3;
+}
+
+h2 {
+    color: #0b3c3d;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px 0;
+}
+
+footer {
+    background-color: #0b3c3d;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    section {
+        margin: 10px;
+        padding: 20px;
+    }
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    font-size: 28px;
+    padding: 14px 16px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 999;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+form button {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+}
