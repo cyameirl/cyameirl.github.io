@@ -143,3 +143,9 @@ img {
     height: auto;
     max-width: 100%;
 }
+
+.logo-nav {
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
